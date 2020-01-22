@@ -1,0 +1,18 @@
+#Addition of two number
+# a=5
+# b=9
+
+a= int(input("Enter first number:"))
+#print(a)
+
+b= int(input("Enter second number:"))
+#print(b)
+
+c=(a+b)
+print("Addition of two numbers is:",c)
+
+# Check if addition is odd or even
+if (c%2)==0:
+    print("numberis even")
+else:
+    print("number is odd")

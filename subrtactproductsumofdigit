@@ -1,0 +1,9 @@
+#Subtract the Product and Sum of Digits of an Integer
+
+class Solution(object):
+    def subtractProductAndSum(self, n):
+        digits = [int(c) for c in str(n)]
+        product = 1
+        for d in digits:
+            product *= d
+        return product - sum(digits)
